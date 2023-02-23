@@ -23,7 +23,7 @@ body {
 
 .inicio {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   margin: auto;
 }
@@ -40,11 +40,10 @@ body {
 }
 
 .imgs-fila {
-  border-radius: 20px;
+  border-radius: 100px;
   width: 100px;
   height: 100px
 }
-
 
 button {
   background-color: #ffddd2;
@@ -99,22 +98,17 @@ button:hover {
   color: black;
 }
 
-.al {
-  margin: 10px 20px 10px 10px;
-  padding: 10px 10px 10px 10px;
+.imgs-inicio{
   border-radius: 50px;
-  width: 100px;
-  height: 100px;
-  display: flex;
+  max-width: 500px;
+  padding: 1rem;
 }
 
-.au {
-  margin: 250px 20px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  border-radius: 100px;
-  width: 550px;
-  height: 550px;
+.container-inicio{
   display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 10px 5px 5px 5px;
 }
 
 .na {
@@ -173,10 +167,6 @@ button:hover {
   justify-content: end;
 }
 
-.c {
-  margin: 10px 5px 5px 5px;
-}
-
 .inicioo {
   text-decoration: none;
   color: white;
@@ -197,28 +187,48 @@ h2 {
 h3 {
   font-size: 18px;
   text-align: center;
-  margin: 30px 5px 5px 5px;
+  margin: 21px -552px -10px 5px;
   color: black
 }
 
+h6 {
+  font-size: 20px;
+  text-align: center;
+  margin: 21px 15px 15px 5px;
+  color: black
+}
 .h3 {
   font-size: 38px;
-  text-align: center;
-  margin: 100px 5px 5px 5px;
+  text-align: right;
+  margin: 100px 277px 5px 5px;
   color: black
+}
+
+.titulooo{
+    font-size: 38px;
+    text-align: center;
+    margin: 35px 5px 35px 5px;
+    color: black;
+}
+
+.real{
+  font-size: 38px;
+  text-align: center;
+  margin: 60px 5px 35px 5px;
+  color: white;
 }
 
 .as {
   font-size: 30px;
   text-align: right;
-  margin: 15px 5px 5px 5px;
+  margin: 39px 20px 5px 5px;
   color: black;
 }
 
 .h4 {
   font-size: 38px;
   text-align: center;
-  margin: 30px 5px 5px 5px;
+  margin: 30px -532px 5px 5px;
   color: black
 }
 
@@ -227,24 +237,6 @@ h1 {
   text-align: center;
   margin: 50px 5px 5px 5px;
   color: black
-}
-
-.ai {
-  margin: 10px 20px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  border-radius: 50px;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-}
-
-.ae {
-  margin: 200px 20px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  border-radius: 50px;
-  width: 900px;
-  height: 500px;
-  text-align: center;
 }
 
 .c {
@@ -344,6 +336,7 @@ p#P1AA {
   width: 250px;
   text-align: center;
   margin-top: 70px;
+  font-size: 15px;
 }
 
 p#P2AA {
@@ -351,6 +344,7 @@ p#P2AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P1:hover p#P1AA {
@@ -390,6 +384,7 @@ p#P3AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P3:hover p#P3AA {
@@ -425,6 +420,7 @@ p#P4AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P4:hover p#P4AA {
@@ -460,6 +456,7 @@ p#P5AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P5:hover p#P5AA {
@@ -495,6 +492,7 @@ p#P6AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P6:hover p#P6AA {
@@ -530,6 +528,7 @@ p#P7AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P7:hover p#P7AA {
@@ -565,6 +564,7 @@ p#P8AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P8:hover p#P8AA {
@@ -600,6 +600,7 @@ p#P9AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P9:hover p#P9AA {
@@ -635,6 +636,7 @@ p#P10AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P10:hover p#P10AA {
@@ -670,6 +672,7 @@ p#P11AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P11:hover p#P11AA {
@@ -705,6 +708,7 @@ p#P12AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P12:hover p#P12AA {
@@ -740,6 +744,7 @@ p#P13AA {
   width: 250px;
   text-align: center;
   margin-top: 500px;
+  font-size: 15px;
 }
 
 div#P13:hover p#P13AA {
@@ -775,6 +780,7 @@ p#P14AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P14:hover p#P14AA {
@@ -810,6 +816,7 @@ p#P15AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P15:hover p#P15AA {
@@ -845,6 +852,7 @@ p#P16AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P16:hover p#P16AA {
@@ -880,6 +888,7 @@ p#P17AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P17:hover p#P17AA {
@@ -915,6 +924,7 @@ p#P18AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P18:hover p#P18AA {
@@ -950,6 +960,7 @@ p#P19AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P19:hover p#P19AA {
@@ -985,6 +996,7 @@ p#P20AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P20:hover p#P20AA {
@@ -1020,6 +1032,7 @@ p#P21AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P21:hover p#P21AA {
@@ -1055,6 +1068,7 @@ p#P22AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P22:hover p#P22AA {
@@ -1090,6 +1104,7 @@ p#P23AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P23:hover p#P23AA {
@@ -1125,6 +1140,7 @@ p#P24AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P24:hover p#P24AA {
@@ -1160,6 +1176,7 @@ p#P25AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P25:hover p#P25AA {
@@ -1195,6 +1212,7 @@ p#P26AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P26:hover p#P26AA {
@@ -1230,6 +1248,7 @@ p#P27AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P27:hover p#P27AA {
@@ -1265,6 +1284,7 @@ p#P28AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P28:hover p#P28AA {
@@ -1300,6 +1320,7 @@ p#P29AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#P29:hover p#P29AA {
@@ -1335,6 +1356,7 @@ p#G1AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G1:hover p#G1AA {
@@ -1370,6 +1392,7 @@ p#G2AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G2:hover p#G2AA {
@@ -1405,6 +1428,7 @@ p#G3AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G3:hover p#G3AA {
@@ -1440,6 +1464,7 @@ p#G4AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G4:hover p#G4AA {
@@ -1475,6 +1500,7 @@ p#G5AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G5:hover p#G5AA {
@@ -1510,6 +1536,7 @@ p#G6AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G6:hover p#G6AA {
@@ -1545,6 +1572,7 @@ p#G7AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G7:hover p#G7AA {
@@ -1580,6 +1608,7 @@ p#G8AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G8:hover p#G8AA {
@@ -1615,6 +1644,7 @@ p#G9AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G9:hover p#G9AA {
@@ -1650,6 +1680,7 @@ p#G10AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G10:hover p#G10AA {
@@ -1685,6 +1716,7 @@ p#G11AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G11:hover p#G11AA {
@@ -1693,7 +1725,7 @@ div#G11:hover p#G11AA {
 
 div#G12 {
   height: 265px;
-  width: 295px;
+  width: 295;
   margin: 30px;
   border-radius: 150px;
   background-image: url(assets/G12.webp)
@@ -1720,15 +1752,15 @@ p#G12AA {
   width: 250px;
   text-align: center;
   margin-top: 300px;
+  font-size: 15px;
 }
 
 div#G12:hover p#G12AA {
   margin-top: 100px;
 }
 
-.logo {}
-
 .tituloo {
   display: flex;
   align-items: center;
 }
+
