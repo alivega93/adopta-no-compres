@@ -365,7 +365,6 @@ h1 {
   margin: 60px;
 }
 
-
 .container-photos {
   display: grid;
   align-items: center;
@@ -385,6 +384,32 @@ h1 {
   border-radius: 50%;
 }
 
+.description {
+  overflow: auto;
+  height: -webkit-fill-available;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity: 0;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.title-dog {
+  font-size: .7rem;
+}
+
+.description-dog {
+  font-size: .6rem;
+}
+
+.img-dog:hover .description {
+  opacity: 1;
+}
+
 #dog1 {
   background-image: url(assets/6c94ec_2874cd986e7744fc96d7f321127df1a8_mv2.webp);
 }
@@ -396,16 +421,6 @@ h1 {
 #dog3 {
   background-image: url(assets/3.webp);
 }
-
-div#I {
-  position: absolute;
-  overflow: hidden;
-  height: 265px;
-  width: 295px;
-  background-color: rgba(31, 31, 31, 0.9);
-  opacity: 0;
-}
-
 
 .info {
   height: 250px;
