@@ -1,20 +1,22 @@
 body {
   font-family: 'Phudu', cursive;
-  background-color: #90e0ef;
+  background-color: #489CA5;
   width: 100%;
   height: 100vh;
   font-size: 62.5%;
 }
 
 .titulo {
-  color: blue;
+  color: #D89A50;
   text-shadow: 0px 0px 10px black;
   text-align: center;
   font-size: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .nomre {
-  background-color: #fed9b7;
+  background-color: #B1CEC1;
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
   border-radius: 3rem;
@@ -39,6 +41,117 @@ body {
   justify-content: space-evenly;
 }
 
+.container-ox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 100px;
+}
+
+.container-ox::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(assets/aaaa.avif) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(50px);
+}
+
+.contact-ox {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.left {
+  height: 100%;
+  background: url(assets/me.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+.contacto {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.contacto:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: #2ecc71;
+}
+
+.field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus {
+  background-color: #fff;
+  border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: #2ecc71;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: #27ae60;
+}
+
+@media screen and (max-width:880px) {
+  .contact-ox {
+    grid-template-columns: 1fr;
+  }
+}
+
+.left {
+  height: 200px;
+}
+
 .imgs-fila {
   border-radius: 100px;
   width: 100px;
@@ -46,9 +159,9 @@ body {
 }
 
 button {
-  background-color: #ffddd2;
+  background-color: #B1CEC1;
   border: none;
-  color: white;
+  color: #10212F;
   padding: 15px;
   margin: 30px 5px 5px 5px;
   font-size: 20px;
@@ -56,19 +169,21 @@ button {
 }
 
 button:hover {
-  background-color: #003566;
-  color: black;
+  background-color: #B1CEC1;
+  color: #10212F;
 }
 
 .botones {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  color: #B1CEC1;
 }
 
 .dropdown {
   display: inline-block;
   position: relative;
+  color: #B1CEC1;
 }
 
 .dropdown-content {
@@ -87,24 +202,24 @@ button:hover {
   display: block;
   padding: 5px;
   text-decoration: none;
-  background-color: #ffddd2;
+  background-color: #B1CEC1;
   border: none;
-  color: white;
+  color: #10212F;
   font-size: 20px;
 }
 
 .dropdown-content a:hover {
-  background-color: #003566;
-  color: black;
+  background-color: #B1CEC1;
+  color: #10212F;
 }
 
-.imgs-inicio{
+.imgs-inicio {
   border-radius: 50px;
   max-width: 500px;
   padding: 1rem;
 }
 
-.container-inicio{
+.container-inicio {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
@@ -169,7 +284,7 @@ button:hover {
 
 .inicioo {
   text-decoration: none;
-  color: white;
+  color: #10212F;
 }
 
 .cc {
@@ -178,16 +293,16 @@ button:hover {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
-  margin: 15px 5px 5px 5px;
+  margin: 19px 5px 20px 5px;
   color: black
 }
 
 h3 {
   font-size: 18px;
   text-align: center;
-  margin: 21px -552px -10px 5px;
+  margin: 21px 25px 5px 5px;
   color: black
 }
 
@@ -197,43 +312,44 @@ h6 {
   margin: 21px 15px 15px 5px;
   color: black
 }
+
 .h3 {
   font-size: 38px;
   text-align: right;
-  margin: 100px 277px 5px 5px;
+  margin: 60px 559px 5px 5px;
   color: black
 }
 
-.titulooo{
-    font-size: 38px;
-    text-align: center;
-    margin: 35px 5px 35px 5px;
-    color: black;
+.titulooo {
+  font-size: 38px;
+  text-align: center;
+  margin: 35px 5px 35px 5px;
+  color: black;
 }
 
-.real{
+.real {
   font-size: 38px;
   text-align: center;
   margin: 60px 5px 35px 5px;
-  color: white;
+  color: #D89A50
 }
 
 .as {
   font-size: 30px;
   text-align: right;
-  margin: 39px 20px 5px 5px;
+  margin: -60px 20px 5px 5px;
   color: black;
 }
 
 .h4 {
   font-size: 38px;
   text-align: center;
-  margin: 30px -532px 5px 5px;
+  margin: 30px 34px 5px 5px;
   color: black
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 35px;
   text-align: center;
   margin: 50px 5px 5px 5px;
   color: black
@@ -1763,4 +1879,3 @@ div#G12:hover p#G12AA {
   display: flex;
   align-items: center;
 }
-
