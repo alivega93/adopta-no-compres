@@ -1,95 +1,99 @@
 <!DOCTYPE html>
 <html lang="es-MX">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Adopta no compres</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Julee&family=Phudu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="STYLE.CSS">
 </head>
-<body>
-    <div class="inicio"> 
-        <img src="assets/descarga (1).jpeg" alt="perro y gato" class="nomre";>
-<p class="titulo"> CHEWPAWS </p>
-     <img src="assets/images.jpeg" alt="huella de perro" class="nomre";> 
-    </div>
 
-<div class="botones">
-    <button> <a href="index.html"class="inicioo"> Inicio</a> </button>
-    <button> <a href="Quien soy.HTML"class="inicioo">¿Quién soy?</a> </button> 
-    <button> <a href="Como adoptar.html" class="inicioo"> ¿Cómo adoptar?</a></button>
-    <button> <a href="Esterilización.html" class="inicioo"> Esterilización </a> </button> 
-    <button> <a href="Contactame.html" class="inicioo">Contacto </a> </button>
-    <div class="dropdown"> <button> Adoptables </button> <div class="dropdown-content"> <a href="Perros adoptables.html">Perros Adoptables</a>
-        <a href="Gatos adoptables.html">Gatos Adoptables</a>
+<header>
+    <header class="inicio">
+        <div> <img src="assets/descarga (1).jpeg" alt="perro y gato" class="foto-logo" ;></div>
+        <p class="titulo"> CHEWPAWS </p>
+        <div> <img src="assets/images.jpeg" alt="huella de perro" class="foto-logo" ;> </div>
+    </header>
+
+    <div class="botones">
+        <button> <a href="index.html" class="caract-botones"> Inicio</a> </button>
+        <button> <a href="Quien soy.HTML" class="caract-botones">¿Quién soy?</a> </button>
+        <button> <a href="Como adoptar.html" class="caract-botones"> ¿Cómo adoptar?</a></button>
+        <button> <a href="Esterilización.html" class="caract-botones"> Esterilización </a> </button>
+        <button> <a href="Contactame.html" class="caract-botones">Contacto </a> </button>
+        <div class="dropdown"> <button> Adoptables </button>
+            <div class="dropdown-content"> <a href="Perros adoptables.html">Perros Adoptables</a>
+                <a href="Gatos adoptables.html">Gatos Adoptables</a>
+            </div>
+        </div>
+        <div class="dropdown"> <button> Más </button>
+            <div class="dropdown-content"> <a href="10 Datos que no sabias.html">10 Datos</a>
+                <a href="10 Razones para adoptar.html">10 Razones</a>
+            </div>
         </div>
     </div>
-    <div class="dropdown"> <button> Más </button> <div class="dropdown-content"> <a href="10 Datos que no sabias.html">Datos Interesantes</a>
-        <a href="10 Razones para adoptar.html">10 Razones</a>
-    </div>
-</div>
-</div>
-<h1 class="h3"> Contacto </h1>
-<h2 class="h4"> CHEWPAUS </h2>
-<h3> Para cualquier duda y/o comentario, favor de llenar el </h3>
-<h3>formulario y nos pondremos en contacto a la</h3>  
-<h3>brevedad posible. </h3>
-<h3>chewpaw@gmail.com</h3>
+</header>
 
-<div class="container-ox">
-    <div class="contact-ox">
-        <div class="left"></div>
-        <div class="right">
-            <h2 class="contacto"> Contáctame </h2>
-            <input type="text" class="field" placeholder="Tu Nombre">
-            <input type="email" class="field" placeholder="Tu Correo">
-            <input type="number" class="field" placeholder="Tu Número">
-            <textarea class="field" placeholder="Mensaje"></textarea>
+    </div>
+    <h1 class="titulo-texto"> Contacto </h1>
+    <h2 class="titulo-contacto"> CHEWPAUS </h2>
+    <h3 class="texto-cont"> Para cualquier duda y/o comentario, favor de llenar el </h3>
+    <h3 class="texto-cont">formulario y nos pondremos en contacto a la</h3>
+    <h3 class="texto-cont">brevedad posible. </h3>
+
+    <main>
+    <div class="form">
+        <form enctype="text/plain" action="mailto:ali.vega93@hotmail.com" method="post">
+        <h2>Contáctame</h2>
+        <div class="column">
+            <img src="assets/me.jpeg" alt="perro">
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" />
+            </div>
+            <div class="input-group">
+                <label for="phone">Telefono</label>
+                <input type="tel" id="phone" />
+            </div>
+            <div class="input-group">
+                <label for="email_address">Email</label>
+                <input type="email" id="email_address" />
+            </div>
+            <div class="input-group">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" />
+            </div>
+            <div class="input-group">
+                <label for="msg">Mensaje</label>
+                <textarea id="msg" cols="30" rows="10"></textarea>
+            </div>
+       
+            <div class="row">
+                <input class="submit" type="submit" value="Enviar"> 
+                <!-- <button id="submit"> Enviar </button> -->
+        </div> 
+        </form>
+    </div>
+</main>
+
+    <footer>
+        <div class="container-redes">
+            <a href="https://www.facebook.com/adoptamemexico"> <img src="assets/4057345bcf57474b96976284050c00df.webp"
+                    alt="Logo facebook" class="redes"> </a>
+            <a href="https://www.instagram.com/rufopueblaoficial/?hl=es"> <img
+                    src="assets/e1aa082f7c0747168d9cf43e77046142.webp" alt="Logo Instagram" class="redes"> </a>
         </div>
-    </div>
-</div>
-i
-
-    </div>
-
-<div class="contact-form">
-    <h5>Contactame</h5>
-    <div class="textc">
-            <label>Nombre Completo :</label> 
-            <input type="textb" name="" value="" placeholder="Escribe tu Nombre">
-    </div>
-</div>
-
-
-<div class="textb">
-    <label>Correo :</label>
-    <input type="email" name="" value="" placeholder="Escribe tu correo">
-</div>
-
-<div class="textb">
-    <label> Número telefónico :</label>
-    <input type="text" name="" value="" placeholder="Escribe tu número telefónico">
-</div>
-
-<div class="textb">
-    <label> Mensaje :</label>
-    <textarea></textarea>
-</div>
-
-<a class="btn"> Mandar </a>
-
-</div>
-<div class="as">
-    <a href="https://www.facebook.com/adoptamemexico"> <img src="assets/4057345bcf57474b96976284050c00df.webp" alt="Logo facebook" class="redess"> </a>
-    <a href="https://www.instagram.com/rufopueblaoficial/?hl=es"> <img src="assets/e1aa082f7c0747168d9cf43e77046142.webp" alt="Logo Instagram" class="redess"> </a>
-    </div>
     
-   
+        <div class="container-redes">
+            <p>chewpaw@gmail.com</p>
+        </div>
 
-<div class="container-inicio">
-<img src="assets/adop.jpeg" alt="adopta no compres" class="imgs-inicio">
-<img src="assets/adopta.webp" alt="adopta no compres" class="imgs-inicio">
-</div>
+    <div class="container-inicio">
+        <img src="assets/adop.jpeg" alt="adopta no compres" class="imgs-inicio">
+        <img src="assets/adopta.webp" alt="adopta no compres" class="imgs-inicio">
+    </div>
+</footer>
